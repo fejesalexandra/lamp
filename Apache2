@@ -1,0 +1,5 @@
+lxc exec fejesalexandra -- apt -y update
+lxc exec fejesalexandra -- apt -y upgrade
+lxc exec fejesalexandra -- apt -y install mc
+lxc exec fejesalexandra -- apt -y install apache2
+
